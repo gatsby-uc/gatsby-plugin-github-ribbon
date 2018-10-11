@@ -1,2 +1,29 @@
 # gatsby-plugin-github-ribbon
-Add the "Fork Me on Github" Ribbon to any Gatsby site 
+Add the [Fork Me on Github](https://blog.github.com/2008-12-19-github-ribbons/) Ribbon to any Gatsby site.
+
+## Install
+
+`npm install --save gatsby-plugin-github-ribbon`
+
+## How to Use
+
+
+```javascript
+// In your gatsby-config.js
+plugins: [
+    {
+        resolve: `gatsby-plugin-github-ribbon`
+        options: {
+            project: `https://github.com/example/project`,
+            color: `red`, //`red`, `green`, `darkblue`, `orange`, `gray`, or `white`.
+            position: `left`, //`left` or `right`
+        }
+    }
+]
+```
+
+## Options
+
+**Position** can be: `left` or `right`.
+
+**Color** can be: `red`, `green`, `darkblue`, `orange`, `gray`, or `white`.
