@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-plugin-github-ribbon",
+  "version": "0.1.0",
+  "description": "Add the \"Fork me on Github\" ribbon to your Gatsby Site.",
+  "main": "index.js",
+  "author": "Alex Moon",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "github",
+    "ribbon"
+  ],
+
+  "scripts": {
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonmeister/gatsby-plugin-github-ribbon.git"
+  },
+  
+  "bugs": {
+    "url": "https://github.com/moonmeister/gatsby-plugin-github-ribbon/issues"
+  },
+  "homepage": "https://github.com/moonmeister/gatsby-plugin-github-ribbon#readme"
+}
