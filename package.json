@@ -11,17 +11,19 @@
     "github",
     "ribbon"
   ],
-
-  "scripts": {
-  },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moonmeister/gatsby-plugin-github-ribbon.git"
   },
-  
   "bugs": {
     "url": "https://github.com/moonmeister/gatsby-plugin-github-ribbon/issues"
   },
-  "homepage": "https://github.com/moonmeister/gatsby-plugin-github-ribbon#readme"
+  "homepage": "https://github.com/moonmeister/gatsby-plugin-github-ribbon#readme",
+  "peerDependencies": {
+    "gatsby": ">2.0.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.88.0"
+  }
 }
