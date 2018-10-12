@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-github-ribbon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add the \"Fork me on Github\" ribbon to your Gatsby Site.",
   "main": "index.js",
   "author": "Alex Moon",
@@ -19,11 +19,29 @@
     "url": "https://github.com/moonmeister/gatsby-plugin-github-ribbon/issues"
   },
   "homepage": "https://github.com/moonmeister/gatsby-plugin-github-ribbon#readme",
+  "scripts": {
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "build": "babel src --out-dir . "
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "peerDependencies": {
     "gatsby": ">2.0.0"
   },
   "dependencies": {
     "fs": "0.0.1-security",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.6.1"
   }
 }

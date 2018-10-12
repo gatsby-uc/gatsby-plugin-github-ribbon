@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+
+#Build Artifacts
+
+gatsby-node.js
+gatsb-ssr.js
+common.js
