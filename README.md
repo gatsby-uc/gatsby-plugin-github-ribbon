@@ -1,4 +1,9 @@
 # gatsby-plugin-github-ribbon
+[![npm](https://img.shields.io/npm/v/gatsby-plugin-github-ribbon.svg?style=for-the-badge)](https://www.npmjs.com/package/gatsby-plugin-github-ribbon)
+
+
+
+
 Add the [Fork Me on Github](https://blog.github.com/2008-12-19-github-ribbons/) Ribbon to any Gatsby site.
 
 ## Install
