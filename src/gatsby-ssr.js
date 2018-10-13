@@ -1,20 +1,20 @@
-const React = require(`react`)
-const { withPrefix } = require(`gatsby`)
+import React from 'react'
+import { withPrefix } from 'gatsby'
 
 exports.onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
   const { project, position } = pluginOptions
   var imgStyle
 
-  if (position === 'right') {
+  if (position === `right`) {
     imgStyle = {
-      position: 'absolute',
+      position: `absolute`,
       top: 0,
       right: 0,
       border: 0,
     }
   } else {
     imgStyle = {
-      position: 'absolute',
+      position: `absolute`,
       top: 0,
       left: 0,
       border: 0,
@@ -27,9 +27,10 @@ exports.onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
       <a
         href={project}
         rel={`noopener`}>
+        target={`_blank`}
         <img
           style={imgStyle}
-          src={withPrefix("/github_ribbon.png")}
+          src={withPrefix(`/github_ribbon.png`)}
           alt="Fork me on GitHub">
         </img>
       </a>

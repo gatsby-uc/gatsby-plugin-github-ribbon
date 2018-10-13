@@ -63,6 +63,6 @@ typings/
 
 #Build Artifacts
 
-gatsby-node.js
-gatsb-ssr.js
-common.js
+/gatsby-node.js
+/gatsby-ssr.js
+/common.js
