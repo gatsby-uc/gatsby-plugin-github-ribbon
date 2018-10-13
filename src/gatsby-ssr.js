@@ -26,8 +26,8 @@ exports.onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
       key={`gatsby-plugin-github-ribbon-header`}>
       <a
         href={project}
-        rel={`noopener`}>
-        target={`_blank`}
+        rel={`noopener`}
+        target={`_blank`}>
         <img
           style={imgStyle}
           src={withPrefix(`/github_ribbon.png`)}
