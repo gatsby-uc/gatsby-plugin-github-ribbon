@@ -23,7 +23,8 @@
     "prepare": "cross-env NODE_ENV=production npm run build",
     "build": "babel src --out-dir . ",
     "prebuild": "npm run lint",
-    "lint": "./node_modules/.bin/eslint --fix ./src"
+    "lint": "./node_modules/.bin/eslint --fix ./src",
+    "prepublish": "npm run build"
   },
   "babel": {
     "presets": [
