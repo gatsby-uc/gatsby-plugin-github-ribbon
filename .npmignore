@@ -32,4 +32,8 @@ flow-typed
 coverage
 decls
 examples
+
+#Config files for build
 .eslintrc.json
+.babelrc.json
+jest.config.js
