@@ -1,6 +1,6 @@
 import fs from 'fs'
 import request from 'request'
-import { buildImgUrl } from './common.js'
+import { buildImgUrl } from './common'
 
 exports.onPostBootstrap = (args, pluginOptions) =>
   new Promise((resolve, reject) => {
@@ -18,7 +18,7 @@ exports.onPostBootstrap = (args, pluginOptions) =>
       .on(`error`, function (err) {
         reject(`Error retrieving github-ribbon: ${err}`)
       })
-      .pipe(file)
+      .pipe(file) 
 
     resolve()
   })

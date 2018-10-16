@@ -3,21 +3,23 @@ import { withPrefix } from 'gatsby'
 
 exports.onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
   const { project, position } = pluginOptions
+
+  var baseImgStyle = {
+    position: `absolute`,
+    top: 0,
+    border: 0,
+  }
   var imgStyle
 
   if (position === `right`) {
     imgStyle = {
-      position: `absolute`,
-      top: 0,
+      ...baseImgStyle,
       right: 0,
-      border: 0,
     }
   } else {
     imgStyle = {
-      position: `absolute`,
-      top: 0,
+      ...baseImgStyle,
       left: 0,
-      border: 0,
     }
   }
 
