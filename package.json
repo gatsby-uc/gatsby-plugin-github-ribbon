@@ -29,24 +29,20 @@
   "peerDependencies": {
     "gatsby": "^2.0.0"
   },
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "request": "^2.88.0"
-  },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "cross-env": "^5.2.0",
-    "eslint": "^5.7.0",
+    "eslint": "^5.9.0",
     "eslint-plugin-react": "^7.11.1",
-    "gatsby": "^2.0.24",
+    "gatsby": "^2.0.45",
     "jest": "^23.6.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
   }
 }
