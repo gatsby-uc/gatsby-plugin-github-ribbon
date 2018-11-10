@@ -24,7 +24,8 @@
     "prebuild": "npm run lint",
     "lint": "./node_modules/.bin/eslint --fix ./src",
     "prepack": "cross-env NODE_ENV=production npm run build",
-    "test": "npm run build && jest --coverage"
+    "test": "npm run build && jest --coverage",
+    "coveralls":  "cat ./coverage/lcov.info | coveralls"
   },
   "peerDependencies": {
     "gatsby": "^2.0.0"
@@ -37,6 +38,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
+    "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
     "eslint": "^5.9.0",
     "eslint-plugin-react": "^7.11.1",

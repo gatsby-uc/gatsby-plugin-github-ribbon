@@ -5,6 +5,9 @@ node_js:
 branches:
   only:
     - master
+
+after_success:
+  - npm coveralls
  
 deploy:
   provider: npm
