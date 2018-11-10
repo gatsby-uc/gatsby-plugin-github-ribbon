@@ -2,7 +2,7 @@
 [![npm](https://img.shields.io/npm/v/gatsby-plugin-github-ribbon.svg?style=for-the-badge)](https://www.npmjs.com/package/gatsby-plugin-github-ribbon) 
 [![npm](https://img.shields.io/npm/dt/gatsby-plugin-github-ribbon.svg?style=for-the-badge)](https://www.npmjs.com/package/gatsby-plugin-github-ribbon)
 [![Travis (.org) branch](https://img.shields.io/travis/moonmeister/gatsby-plugin-github-ribbon/master.svg?style=for-the-badge)](https://travis-ci.org/moonmeister/gatsby-plugin-github-ribbon)
-[![Coveralls github branch](https://img.shields.io/coveralls/github/jekyll/jekyll/master.svg?style=for-the-badge)](https://coveralls.io/github/moonmeister/gatsby-plugin-github-ribbon?branch=master)
+[![Coveralls github branch](https://img.shields.io/coveralls/github/moonmeister/gatsby-plugin-github-ribbon/master.svg?style=for-the-badge)](https://coveralls.io/github/moonmeister/gatsby-plugin-github-ribbon?branch=master)
 
 
 
