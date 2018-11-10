@@ -7,7 +7,7 @@ branches:
     - master
 
 after_success:
-  - npm coveralls
+  - npm run coveralls
  
 deploy:
   provider: npm
