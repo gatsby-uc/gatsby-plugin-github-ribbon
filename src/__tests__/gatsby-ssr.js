@@ -1,4 +1,4 @@
-import { onRenderBody }from '../gatsby-ssr'
+import { onRenderBody } from '../gatsby-ssr'
 
 describe(`adds github ribbon to html`, () => {
   test.each`

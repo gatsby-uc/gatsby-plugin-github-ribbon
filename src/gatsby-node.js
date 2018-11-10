@@ -4,10 +4,10 @@ import { buildImgUrl } from './common'
 
 exports.onPostBootstrap = (args, pluginOptions) =>
   new Promise((resolve, reject) => {
-    const { project, color, position } = pluginOptions
+    const { color, position } = pluginOptions
 
     // Build url
-    const url = buildImgUrl(project, color, position)
+    const url = buildImgUrl(color, position)
 
     // Create image file
     var file = fs.createWriteStream(`public/github_ribbon.png`)
