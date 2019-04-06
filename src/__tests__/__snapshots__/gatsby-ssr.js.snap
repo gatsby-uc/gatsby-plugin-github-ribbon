@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`adds github ribbon to html create html for injecting if config is set - "left" 1`] = `
+exports[`adds github ribbon to html create html for injecting if config is set - left 1`] = `
 [MockFunction] {
   "calls": Array [
     Array [
@@ -30,14 +30,14 @@ exports[`adds github ribbon to html create html for injecting if config is set -
   ],
   "results": Array [
     Object {
-      "isThrow": false,
+      "type": "return",
       "value": undefined,
     },
   ],
 }
 `;
 
-exports[`adds github ribbon to html create html for injecting if config is set - "right" 1`] = `
+exports[`adds github ribbon to html create html for injecting if config is set - right 1`] = `
 [MockFunction] {
   "calls": Array [
     Array [
@@ -67,7 +67,7 @@ exports[`adds github ribbon to html create html for injecting if config is set -
   ],
   "results": Array [
     Object {
-      "isThrow": false,
+      "type": "return",
       "value": undefined,
     },
   ],
