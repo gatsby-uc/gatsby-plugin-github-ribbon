@@ -22,7 +22,7 @@ Add the [Fork Me on Github](https://blog.github.com/2008-12-19-github-ribbons/) 
 // In your gatsby-config.js
 plugins: [
     {
-        resolve: `gatsby-plugin-github-ribbon`
+        resolve: `gatsby-plugin-github-ribbon`,
         options: {
             project: `https://github.com/example/project`,
             color: `red`, //`red`, `green`, `darkblue`, `orange`, `gray`, or `white`.
