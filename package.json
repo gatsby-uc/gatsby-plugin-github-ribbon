@@ -25,7 +25,8 @@
     "lint": "./node_modules/.bin/eslint --fix ./src",
     "prepack": "cross-env NODE_ENV=production npm run build",
     "test": "npm run build && jest --coverage",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "postpublish": "git push --all"
   },
   "peerDependencies": {
     "gatsby": "^2.0.0"
