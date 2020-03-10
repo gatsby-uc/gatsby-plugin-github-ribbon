@@ -8,13 +8,9 @@ branches:
 
 after_success:
   - npm run coveralls
- 
+
 deploy:
-  provider: npm
-  email: "alex.jared.moon@gmail.com"
-  api_key: "GXDyriSOe/SdtfQ2sHNT3a3RzEfvsWCIbfBUElB6dLP7N+ID7ABReicoyCLFuKoS0eU6v0CCNEQrDypE13lJ6k3fz+WU4nCFQ0qFZOhjZ9TE0Doiz3154D6rWazxJ92Ps7xF9ah3GrGq0xn3OLXViK4M3Z2xuG6gamE/X6ghDxQ0ph9VYfStCv6JTmGdtxfpk9kbIFQR7OWEFWmZYKD874RRuOZgnY+7pEmAoii1HvKU+tMK3vaKm+OarnKh+8E2UXCVJpHnvgu3qnkjUFlhdoOyEw69alNzKIZuR10wtXOPCilbmTm8mfiAIRN34jbUp52lMOZG84vhc7W3+h7zmw4VfXteqgsSkzUXBReoufeSjqajHiXDSa3ZTxEOo+FURy79CbviQjprVILYeDRyEpKFmY1+2UfnBC0JS7muDQSugbjxf+lpZGEiu6x67qJ5WH0ammEo0FLg6aZJMDylaKd9Z1PYJI/HqPrtkmpCFnCZUjjxWjaRdhZTERkoImb4bSbvzKOH89fp6x7JFZXU7ljYRepVsjavTRD/pooAmgUqrpU8GNdkYtET8XeJyYoJjry3OwfqgB6m+MRgb94UAVC5j7NBu5t9X+PsFPh5RSFgNivkRneNaD46YwPjoLGKYNTYUsQXGLropVxCtNg0g8xt3+6l80WQhyU1fK8oXRI="
-  on:
-    tags: true
-    all_branches: true
+  provider: script
   skip_cleanup: true
-  
+  script:
+    - yarn semantic-release

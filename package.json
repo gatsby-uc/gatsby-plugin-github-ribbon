@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moonmeister/gatsby-plugin-github-ribbon.git"
+    "url": "https://github.com/moonmeister/gatsby-plugin-github-ribbon.git"
   },
   "bugs": {
     "url": "https://github.com/moonmeister/gatsby-plugin-github-ribbon/issues"
@@ -26,7 +26,8 @@
     "prepack": "cross-env NODE_ENV=production npm run build",
     "test": "npm run build && jest --coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "postpublish": "git push --all"
+    "postpublish": "git push --all",
+    "semantic-release": "semantic-release"
   },
   "peerDependencies": {
     "gatsby": "^2.0.0"
@@ -46,6 +47,7 @@
     "gatsby": "^2.19.34",
     "jest": "^25.1.0",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "semantic-release": "^17.0.4"
   }
 }
