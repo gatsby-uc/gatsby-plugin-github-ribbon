@@ -33,21 +33,21 @@
     "gatsby": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-react": "^7.8.3",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^25.1.0",
-    "coveralls": "^3.0.9",
-    "cross-env": "^7.0.2",
+    "babel-jest": "^25.5.1",
+    "coveralls": "^3.1.0",
+    "cross-env": "^7.0.3",
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.19.0",
-    "gatsby": "^2.19.34",
-    "jest": "^25.1.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "semantic-release": "^17.0.4"
+    "eslint-plugin-react": "^7.22.0",
+    "gatsby": "^2.32.11",
+    "jest": "^25.5.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "semantic-release": "^17.4.1"
   }
 }
